@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Button from "./components/Button";
 import InputText from "./components/InputText";
+import Input from "./components/Input";
 
 function App() {
   const [numero1, setNumero1] = useState(0);
@@ -77,6 +78,15 @@ function App() {
       ))}
       </ul>
 
+      <br />
+      <br />
+
+      <h2>Registro de Estudiantes</h2>
+      <Input placeholder="Nombre"></Input>
+      <br />
+      <Input placeholder="Edad"></Input>
+      <br />
+      <Input placeholder="Carnet"></Input>
     </>
   );
 }
